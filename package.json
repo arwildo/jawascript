@@ -1,5 +1,5 @@
 {
-  "name": "jawa-script",
+  "name": "@arwildo/jawascript",
   "version": "1.0.0",
   "description": "JavaScript nganggo basa Jawa",
   "type": "module",
@@ -25,10 +25,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/arwildo/jawa-script.git"
+    "url": "git+https://github.com/arwildo/jawascript.git"
   },
   "bugs": {
-    "url": "https://github.com/arwildo/jawa-script/issues"
+    "url": "https://github.com/arwildo/jawascript/issues"
   },
-  "homepage": "https://github.com/arwildo/jawa-script#readme"
+  "homepage": "https://github.com/arwildo/jawascript#readme"
 }
