@@ -1,0 +1,34 @@
+{
+  "name": "jawa-script",
+  "version": "1.0.0",
+  "description": "JavaScript nganggo basa Jawa",
+  "type": "module",
+  "bin": {
+    "jawa": "./bin/jawa.js"
+  },
+  "keywords": [
+    "jawa",
+    "javascript",
+    "programming-language",
+    "esolang",
+    "fun"
+  ],
+  "license": "MIT",
+  "files": [
+    "bin",
+    "src",
+    "examples",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arwildo/jawa-script.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arwildo/jawa-script/issues"
+  },
+  "homepage": "https://github.com/arwildo/jawa-script#readme"
+}

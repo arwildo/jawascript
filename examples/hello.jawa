@@ -1,0 +1,17 @@
+// Hello World ne
+tampilno("piye kabare jagad!");
+
+// Variable ne
+ono x = 10;
+ono y = 20;
+
+// Print ne
+tampilno(x + y);
+
+// If statement ne, ojo lali yo mas e!
+yen (x < y) {
+    tampilno("x luwih cilik");
+} yen ora {
+    tampilno("x luwih gedhe");
+}
+
