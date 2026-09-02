@@ -1,13 +1,13 @@
-# Jawa Script
+# JawaScript
 
 > JavaScript nganggo basa Jawa.
 
-Jawa Script adalah **source to source transpiler** kecil yang menerjemahkan file `.jawa` menjadi JavaScript, lalu mengeksekusinya dengan Node.js.
+JawaScript adalah **source to source transpiler** kecil yang menerjemahkan file `.jawa` menjadi JavaScript, lalu mengeksekusinya dengan Node.js.
 
 ## Install
 
 ```bash
-npm install -g @arwildo/jawa-script
+npm install -g @arwildo/jawascript
 ```
 
 ## Usage
@@ -67,5 +67,5 @@ yen (x < y) {
 ## Cara Kerja
 
 File `.jawa` dibaca, keyword Jawa diganti dengan JavaScript menggunakan regex word boundary (urutan replacement penting: `yen ora` diproses sebelum `yen`), lalu dieksekusi.
-Jawa Script adalah project eksperimen yang dibuat untuk bersenang senang dan belajar bagaimana bahasa pemrograman sederhana dapat dibuat.
+JawaScript adalah project eksperimen yang dibuat untuk bersenang senang dan belajar bahasa jawa secara secara programming.
 
