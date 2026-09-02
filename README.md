@@ -7,7 +7,7 @@ Jawa Script adalah **source to source transpiler** kecil yang menerjemahkan file
 ## Install
 
 ```bash
-npm install -g jawa-script
+npm install -g @arwildo/jawa-script
 ```
 
 ## Usage
