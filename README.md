@@ -1,5 +1,6 @@
-# JawaScript
+<p align=center><img src="https://raw.githubusercontent.com/arwildo/jawascript/refs/heads/main/jawascript.png" width="86"></img></p> 
 
+# JawaScript
 > JavaScript nganggo basa Jawa.
 
 JawaScript adalah **source to source transpiler** kecil yang menerjemahkan file `.jawa` menjadi JavaScript, lalu mengeksekusinya dengan Node.js.
