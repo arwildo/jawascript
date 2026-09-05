@@ -15,3 +15,8 @@ yen (x < y) {
     tampilno("x luwih gedhe");
 }
 
+// teks dadi integer
+y = teks dadi integer("123");
+
+// teks dadi desimal
+x = teks dadi desimal("1.23");

@@ -3,6 +3,8 @@ const KEYWORDS = [
   ["yen", "if"],
   ["tampilno", "console.log"],
   ["ono", "let"],
+  ["teks dadi integer", "parseInt"],
+  ["teks dadi desimal", "parseFloat"],
 ];
 
 function escapeRegex(str) {

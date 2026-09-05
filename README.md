@@ -56,15 +56,10 @@ yen (x < y) {
 }
 ```
 
-## Keyword
+## Keywords
 
-| Jawa     | JavaScript  |
-| -------- | ----------- |
-| ono      | let         |
-| tampilno | console.log |
-| yen      | if          |
-| yen ora  | else        |
-
+[Keywords](keywords.md)
+ 
 ## Cara Kerja
 
 File `.jawa` dibaca, keyword Jawa diganti dengan JavaScript menggunakan regex word boundary (urutan replacement penting: `yen ora` diproses sebelum `yen`), lalu dieksekusi.
