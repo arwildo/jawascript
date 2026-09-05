@@ -6,6 +6,9 @@
   "bin": {
     "jawa": "./bin/jawa.js"
   },
+  "scripts": {
+    "test": "node --test"
+  },
   "keywords": [
     "jawa",
     "javascript",

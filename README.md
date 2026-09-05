@@ -58,12 +58,29 @@ yen (x < y) {
 
 ## Keyword
 
-| Jawa     | JavaScript  |
-| -------- | ----------- |
-| ono      | let         |
-| tampilno | console.log |
-| yen      | if          |
-| yen ora  | else        |
+| Jawa      | JavaScript  |
+| --------- | ----------- |
+| ono       | let         |
+| tetep     | const       |
+| tampilno  | console.log |
+| yen       | if          |
+| yen ora   | else        |
+| fungsi    | function    |
+| balekno   | return      |
+| bener     | true        |
+| salah     | false       |
+| suwung    | null        |
+| kanggo    | for         |
+| suwene    | while       |
+| lakoni    | do          |
+| mandheg   | break       |
+| terusi    | continue    |
+| kelas     | class       |
+| anyar     | new         |
+| coba      | try         |
+| cekel     | catch       |
+| pungkasan | finally     |
+| uncalno   | throw       |
 
 ## Cara Kerja
 

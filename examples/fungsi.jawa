@@ -1,0 +1,16 @@
+// Contoh fungsi lan variabel tetep
+tetep NAMA = "Suroboyo";
+ono status = bener;
+
+fungsi tambah(a, b) {
+    balekno a + b;
+}
+
+tampilno("Kutho:");
+tampilno(NAMA);
+
+yen (status == bener) {
+    ono hasil = tambah(15, 25);
+    tampilno("Hasil Penjumlahan:");
+    tampilno(hasil);
+}

@@ -1,0 +1,5 @@
+fungsi sapa(jeneng) {
+    balekno `Sugeng enjing, ${jeneng}!`;
+}
+
+tampilno(sapa("Eksan"));
