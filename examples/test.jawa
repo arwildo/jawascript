@@ -1,0 +1,175 @@
+// Hello World ne
+tampilno("piye kabare jagad!");
+
+// Variable ne
+ono x = 10;
+ono y = 20;
+
+// Print ne
+tampilno(x + y);
+
+// If statement ne, ojo lali yo mas e!
+yen (x < y) {
+    tampilno("x luwih cilik");
+} yen ora {
+    tampilno("x luwih gedhe");
+}
+
+// teks dadi integer
+y = teks dadi integer("123");
+
+// teks dadi desimal
+x = teks dadi desimal("1.23");
+
+// const
+tetep jeneng = "Iron Man";
+
+// function
+fungsi tambah(a, b) {
+    balekno a + b;
+}
+
+// while
+ono angka = 0;
+nalikane (angka < 5) {
+    tampilno(angka);
+    angka++;
+}
+
+// for
+kanggo (ono i = 0; i < 5; i++) {
+    tampilno("Ojo lali, i = " + i);
+}
+
+// break
+kanggo (ono i = 0; i < 10; i++) {
+    yen (i padha karo 5) {
+        mandheg;
+    }
+}
+
+// continue
+kanggo (ono i = 0; i < 10; i++) {
+    yen (i padha karo 5) {
+        terusno;
+    }
+
+    tampilno("Aku ora ketok angka 5");
+}
+
+// lan
+yen (x gedhe 1 lan y gedhe 1) {
+    tampilno("Loro-lorone bener, ojo lali!");
+}
+
+// utawa
+yen (x gedhe 100 utawa y gedhe 100) {
+    tampilno("Salah siji dadi Iron Man");
+}
+
+// padha karo
+yen (x padha karo 10) {
+    tampilno("10 iku 10, matematika ora iso ngapusi");
+}
+
+// ora padha
+yen (x ora padha 999) {
+    tampilno("x dudu 999");
+}
+
+// gedhe padha
+yen (x gedhe padha 10) {
+    tampilno("x gedhe utawa padha karo 10");
+}
+
+// cilik padha
+yen (y cilik padha 20) {
+    tampilno("y cilik utawa padha karo 20");
+}
+
+// gedhe
+yen (y gedhe 10) {
+    tampilno("y luwih gedhe saka 10");
+}
+
+// cilik
+yen (x cilik 20) {
+    tampilno("x luwih cilik saka 20");
+}
+
+// bener
+ono ironMan = bener;
+
+// salah
+ono thanos = salah;
+
+// kosong
+ono baterei = kosong;
+
+// ora ono
+ono avengers = ora ono;
+
+// coba
+coba {
+    tampilno("Tony Stark lagi ngoding");
+} tangkap (err) {
+    tampilno("Waduh, error mas e!");
+} pungkasan {
+    tampilno("Ojo lali commit");
+}
+
+// uncalno
+fungsi cekArmor(armor) {
+    yen (armor cilik 0) {
+        uncalno "Armor Iron Man ilang";
+    }
+
+    balekno armor;
+}
+
+// pilih, kasus, standar
+ono pilihan = 2;
+
+pilih (pilihan) {
+    kasus 1:
+        tampilno("Thor");
+        mandheg;
+
+    kasus 2:
+        tampilno("Iron Man");
+        mandheg;
+
+    standar:
+        tampilno("Ojo lali, Avengers durung lengkap");
+}
+
+// kelas
+kelas Pahlawan {
+    konstruktor(nama) {
+        this.nama = nama;
+    }
+
+    salam() {
+        tampilno("Halo, aku " + this.nama);
+    }
+}
+
+// waris
+kelas IronMan waris Pahlawan {
+    konstruktor(nama, armor) {
+        super(nama);
+        this.armor = armor;
+    }
+
+    terbang() {
+        tampilno(this.nama + " lagi mabur nganggo armor");
+    }
+}
+
+// anyar
+ono pahlawan = anyar Pahlawan("Batman");
+pahlawan.salam();
+
+ono ironman = anyar IronMan("Iron Man", "Mark 85");
+ironman.salam();
+ironman.terbang();
