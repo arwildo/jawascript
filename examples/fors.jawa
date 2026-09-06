@@ -1,0 +1,13 @@
+ono jeneng = ["Budi", "Sari", "Joko"];
+
+tampilno("--- saka (for...of) ---");
+kanggo (ono jenengBocah saka jeneng) {
+    tampilno("Halo, " + jenengBocah);
+}
+
+ono bocah = { Budi: 9, Sari: 7, Joko: 8 };
+
+tampilno("--- ing (for...in) ---");
+kanggo (ono jenengIng ing bocah) {
+    tampilno(jenengIng + " umur " + bocah[jenengIng]);
+}

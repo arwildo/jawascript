@@ -1,0 +1,9 @@
+tampil.serat("pesan biasa");
+tampil.ngadat("ana sing salah");
+tampil.awas("ati-ati");
+tampil.kabar("info tambahan");
+
+ono aktif = salah;
+yen (!aktif) {
+    tampil.ngadat("kudu aktif dhisik!");
+}

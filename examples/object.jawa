@@ -1,0 +1,12 @@
+ono pengguna = { jeneng: "Feri", umur: 25 };
+tampilno(pengguna.jeneng);
+tampilno("umur: " + pengguna.umur);
+
+ono angka = [1, 2, 3, 4];
+ono total = 0;
+ono idx = 0;
+nganti (idx < angka.length) {
+    total = total + angka[idx];
+    idx = idx + 1;
+}
+tampilno("total: " + total);

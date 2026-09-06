@@ -1,21 +1,9 @@
-const KEYWORDS = [
-  ["yen ora", "else"],
-  ["yen", "if"],
-  ["tampilno", "console.log"],
-  ["ono", "let"],
-];
-
-function escapeRegex(str) {
-  return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-}
+import { tokenize } from "./tokenizer.js";
+import { parse } from "./parser.js";
+import { emit } from "./emitter.js";
 
 export function translate(code) {
-  let js = code;
-
-  for (const [from, to] of KEYWORDS) {
-    const regex = new RegExp(`\\b${escapeRegex(from)}\\b`, "g");
-    js = js.replace(regex, to);
-  }
-
-  return js;
+  const tokens = tokenize(code);
+  const ast = parse(tokens);
+  return emit(ast);
 }

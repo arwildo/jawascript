@@ -11,7 +11,7 @@ tampilno(x + y);
 // If statement ne, ojo lali yo mas e!
 yen (x < y) {
     tampilno("x luwih cilik");
-} yen ora {
+} liyane {
     tampilno("x luwih gedhe");
 }
 

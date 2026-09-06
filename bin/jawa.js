@@ -22,7 +22,17 @@ try {
   process.exit(1);
 }
 
-const js = translate(source);
+let js;
+try {
+  js = translate(source);
+} catch (err) {
+  if (err.name === "JawaError" && err.line != null) {
+    console.error(`${err.message} (baris ${err.line}, kolom ${err.col})`);
+  } else {
+    console.error(`Error: ${err.message}`);
+  }
+  process.exit(1);
+}
 
 try {
   new Function(js)();
