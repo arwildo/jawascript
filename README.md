@@ -69,7 +69,7 @@ Contoh lain tersedia di folder `examples/`: `oop`, `async`, `error`, `switch`, `
 
 ## Keyword
 
-Semua kata terpusat di **`src/keywords.js`** — untuk ganti/tambah kata cukup edit berkas itu saja.
+Semua kata terpusat di **`src/keywords.js`** — untuk ganti/tambah kata cukup edit berkas itu saja. Tabel ringkas juga ada di [keywords.md](keywords.md).
 
 **Dasar**
 
@@ -77,6 +77,7 @@ Semua kata terpusat di **`src/keywords.js`** — untuk ganti/tambah kata cukup e
 | ------------- | ------------- |
 | `ono`         | `let`         |
 | `paten`       | `const`       |
+| `tetep`       | `const`       |
 | `tampilno`    | `console.log` |
 | `yen`         | `if`          |
 | `liyane yen`  | `else if`     |
@@ -89,17 +90,41 @@ Semua kata terpusat di **`src/keywords.js`** — untuk ganti/tambah kata cukup e
 | `balekno`     | `return`      |
 | `mandheg`     | `break`       |
 | `lanjutna`    | `continue`    |
+| `buang`       | `throw`       |
 | `bener`       | `true`        |
 | `salah`       | `false`       |
 
+**Operator kata**
+
+Selain simbol JS (`==`, `===`, `=`, `!`, `&&`, `||`, `<`, `>`), operator juga bisa ditulis dalam kata:
+
+| Jawa           | JavaScript |
+| -------------- | ---------- |
+| `lan`          | `&&`       |
+| `utawa`        | `\|\|`     |
+| `padhaKaro`    | `===`      |
+| `oraPadha`     | `!==`      |
+| `gedhePadha`   | `>=`       |
+| `cilikPadha`   | `<=`       |
+| `gedhe`        | `>`        |
+| `cilik`        | `<`        |
+
+**Fungsi built-in**
+
+| Jawa                | JavaScript  |
+| ------------------- | ----------- |
+| `teksDadiInteger`   | `parseInt`  |
+| `teksDadiDesimal`   | `parseFloat` |
+
 **Kelas & OOP**
 
-| Jawa       | JavaScript |
-| ---------- | ---------- |
-| `kelas`    | `class`    |
-| `warisan`  | `extends`  |
-| `anyar`    | `new`      |
-| `iki`      | `this`     |
+| Jawa        | JavaScript |
+| ----------- | ---------- |
+| `kelas`     | `class`    |
+| `warisan`   | `extends`  |
+| `anyar`     | `new`      |
+| `iki`       | `this`     |
+| `konstruktor` | `constructor` |
 
 **Async**
 
@@ -124,10 +149,10 @@ Semua kata terpusat di **`src/keywords.js`** — untuk ganti/tambah kata cukup e
 | `milih`   | `switch`    |
 | `kasus`   | `case`      |
 | `asale`   | `default`   |
-| `kosong`  | `null`      |
+| `suwung`  | `null`      |
 | `rajelas` | `undefined` |
 
-> **Catatan:** operator memakai simbol JS aslinya dan tidak diterjemahkan — `==`, `===`, `!==`, `!=`, `!`, `=`, `&&`, `||`, `<`, `>`, dst. ditulis persis seperti JavaScript. Arrow `=>` juga dipakai apa adanya, misal `(e) => tampilno(e)`.
+> **Catatan:** operator memakai simbol JS aslinya dan tidak diterjemahkan — `==`, `===`, `!==`, `!=`, `!`, `=`, `&&`, `||`, `<`, `>`, dst. ditulis persis seperti JavaScript, tapi ada juga padanan katanya (`lan`, `utawa`, `padhaKaro`, dst., lihat tabel di atas). Arrow `=>` juga dipakai apa adanya, misal `(e) => tampilno(e)`.
 >
 > **Belum didukung:** `typeof`, `instanceof`, template literal, destructuring, getter/setter.
 
@@ -152,6 +177,9 @@ Kamus member (`MEMBERS` di `src/keywords.js`) memetakan objek/method umum:
 | `gawe`                | `createElement`       |
 | `tempel`              | `appendChild`         |
 | `rungokno`            | `addEventListener`    |
+| `teksDadiInteger`     | `parseInt`            |
+| `teksDadiDesimal`     | `parseFloat`          |
+| `konstruktor`         | `constructor`         |
 
 Contoh: `dokumen.jupuk("#tombol").rungokno("click", (e) => { ... })` → `document.querySelector("#tombol").addEventListener("click", ...)`.
 

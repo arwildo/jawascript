@@ -20,6 +20,7 @@ export const KEYWORDS = [
   ["enteni", "await"],
   ["anyar", "new"],
   ["paten", "const"],
+  ["tetep", "const"],
   ["ono", "let"],
   ["tampilno", "console.log"],
   ["rajelas", "undefined"],
@@ -29,6 +30,14 @@ export const KEYWORDS = [
   ["salah", "false"],
   ["saka", "of"],
   ["ing", "in"],
+  ["lan", "&&"],
+  ["utawa", "||"],
+  ["padhaKaro", "==="],
+  ["oraPadha", "!=="],
+  ["gedhePadha", ">="],
+  ["cilikPadha", "<="],
+  ["gedhe", ">"],
+  ["cilik", "<"],
 ];
 
 export const MEMBERS = {
@@ -48,4 +57,7 @@ export const MEMBERS = {
   tempel: "appendChild",
   rungokno: "addEventListener",
   kirim: "fetch",
+  teksDadiInteger: "parseInt",
+  teksDadiDesimal: "parseFloat",
+  konstruktor: "constructor",
 };
