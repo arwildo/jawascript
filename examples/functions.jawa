@@ -1,0 +1,12 @@
+fungsi tambahke(a, b) {
+    balekno a + b;
+}
+
+ono asil = tambahke(3, 4);
+tampilno("3 + 4 = " + asil);
+
+fungsi sapaan(jeneng) {
+    balekno "Halo, " + jeneng + "!";
+}
+
+tampilno(sapaan("Mas"));

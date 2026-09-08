@@ -1,0 +1,31 @@
+kelas Kethek {
+    constructor(jeneng) {
+        iki.jeneng = jeneng;
+        iki.bobot = 0;
+    }
+
+    mangan(kg) {
+        iki.bobot = iki.bobot + kg;
+        tampilno(iki.jeneng + " mangan " + kg + " kg");
+    }
+
+    tampilBobot() {
+        tampilno(iki.jeneng + " bobote " + iki.bobot + " kg");
+    }
+}
+
+kelas KethekBuntut warisan Kethek {
+    mangan(kg) {
+        super.mangan(kg);
+        tampilno("buntute mumbul!");
+    }
+
+    gantung() {
+        tampilno(iki.jeneng + " gantung ing wit");
+    }
+}
+
+ono si = anyar KethekBuntut("Kiki");
+si.mangan(2);
+si.tampilBobot();
+si.gantung();

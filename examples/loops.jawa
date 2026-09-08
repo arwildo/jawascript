@@ -1,0 +1,17 @@
+ono i = 0;
+nganti (i < 5) {
+    tampilno("nganti: " + i);
+    i = i + 1;
+}
+
+kanggo (ono j = 0; j < 3; j = j + 1) {
+    yen (j === 1) lanjutna;
+    tampilno("for: " + j);
+}
+
+ono k = 10;
+nganti (bener) {
+    yen (k <= 0) mandheg;
+    tampilno("mundur: " + k);
+    k = k - 1;
+}

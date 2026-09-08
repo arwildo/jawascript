@@ -1,0 +1,23 @@
+fungsi jenengHari(n) {
+    ono hasil = "";
+    milih (n) {
+        kasus 1:
+            hasil = "Senin";
+            mandheg;
+        kasus 2:
+            hasil = "Selasa";
+            mandheg;
+        kasus 3:
+            hasil = "Rebo";
+            mandheg;
+        asale:
+            hasil = "Saparane";
+    }
+    balekno hasil;
+}
+
+ono i = 0;
+nganti (i <= 4) {
+    tampilno(i + " = " + jenengHari(i));
+    i = i + 1;
+}

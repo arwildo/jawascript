@@ -1,0 +1,13 @@
+sambil fungsi telat(ms) {
+    balekno anyar janji((selesai) => {
+        setTimeout(selesai, ms);
+    });
+}
+
+sambil fungsi breng_sejenak() {
+    tampilno("awit...");
+    enteni telat(50);
+    tampilno("rampung sawise 50ms");
+}
+
+breng_sejenak();

@@ -1,0 +1,21 @@
+ono tombol = dokumen.jupuk("#submit");
+tombol.rungokno("click", (event) => {
+    tampilno("diklik!");
+});
+
+ono kabehTombol = dokumen.jupukKabeh(".tombol");
+kabehTombol.forEach((t) => {
+    t.rungokno("click", fungsi () {
+        tampilno("tombol klik");
+    });
+});
+
+ono kotak = dokumen.gawe("div");
+kotak.textContent = "selamat siang";
+dokumen.body.tempel(kotak);
+
+kirim("/api/users")
+    .then((r) => r.json())
+    .then((data) => {
+        tampilno(data);
+    });

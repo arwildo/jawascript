@@ -1,0 +1,15 @@
+fungsi risiko(angka) {
+    yen (angka < 0) {
+        buang anyar Error("ora oleh negatif!");
+    }
+    balekno 100 / angka;
+}
+
+nyoba {
+    tampilno(risiko(10));
+    tampilno(risiko(-1));
+} nompo (err) {
+    tampil.ngadat("Dicekel: " + err.message);
+} akhire {
+    tampilno("selawase mlaku");
+}
