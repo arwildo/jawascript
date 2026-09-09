@@ -1,6 +1,6 @@
 {
   "name": "@arwildo/jawascript",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "JavaScript nganggo basa Jawa",
   "type": "module",
   "bin": {
