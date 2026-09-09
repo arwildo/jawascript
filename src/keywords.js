@@ -1,5 +1,5 @@
 export const KEYWORDS = [
-  ["liyane", "else"],
+  ["ora", "else"],
   ["yen", "if"],
   ["nompo", "catch"],
   ["nyoba", "try"],

@@ -23,7 +23,7 @@ tampilno(x + y);
 
 yen (x < y) {
     tampilno("x luwih cilik");
-} liyane {
+} ora {
     tampilno("x luwih gedhe");
 }
 ```
@@ -80,8 +80,8 @@ Semua kata terpusat di **`src/keywords.js`** — untuk ganti/tambah kata cukup e
 | `tetep`       | `const`       |
 | `tampilno`    | `console.log` |
 | `yen`         | `if`          |
-| `liyane yen`  | `else if`     |
-| `liyane`      | `else`        |
+| `ora yen`  | `else if`     |
+| `ora`      | `else`        |
 | `nganti`      | `while`       |
 | `kanggo`      | `for`         |
 | `saka`        | `of` (`for...of`) |
@@ -194,4 +194,3 @@ Contoh di `examples/` yang memakai DOM (`web.jawa`) memerlukan **browser**; yang
 Mengganti kata cukup di `src/keywords.js`; tokenizer/parser/emitter otomatis mengikuti tanpa perubahan lain.
 
 JawaScript adalah project eksperimen yang dibuat untuk bersenang senang dan belajar bahasa jawa secara secara programming.
-

@@ -11,8 +11,8 @@ Kamus terpusat di `src/keywords.js`.
 | `tetep`       | `const`       |
 | `tampilno`    | `console.log` |
 | `yen`         | `if`          |
-| `liyane yen`  | `else if`     |
-| `liyane`      | `else`        |
+| `ora yen`  | `else if`     |
+| `ora`      | `else`        |
 | `nganti`      | `while`       |
 | `kanggo`      | `for`         |
 | `saka`        | `of` (`for...of`) |
