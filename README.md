@@ -192,4 +192,4 @@ Contoh di `examples/` yang memakai DOM (`web.jawa`) memerlukan **browser**; yang
 
 Mengganti kata cukup di `src/keywords.js`; tokenizer/parser/emitter otomatis mengikuti tanpa perubahan lain.
 
-JawaScript adalah project eksperimen yang dibuat untuk bersenang senang dan belajar bahasa jawa secara secara programming.
+JawaScript adalah project eksperimen yang dibuat untuk bersenang senang dan belajar bahasa jawa secara programming.
